@@ -72,7 +72,7 @@ onValue(endorsements, function(snapshot) {
     let itemsArray = Object.values(snapshot.val())
     success.innerHTML = ""
     for (let i=0; i< itemsArray.length; i++) {
-        success.innerHTML += `<p class="resultlist">${itemsArray[i]}</p>`
+        success.innerHTML = `<p class="resultlist">${itemsArray[i]}</p>`
     }
 })
 
