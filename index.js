@@ -62,6 +62,7 @@ button.addEventListener("click", function() {
         input.style.display = "none"
         button.style.display = "none"
         run();
+        window.stop();
 
     }
     
