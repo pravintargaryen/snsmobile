@@ -1,0 +1,77 @@
+body {
+    background: url('https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1366&q=80');
+    background-repeat: repeat-y;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
+}
+
+.container {
+    background-color: #fbec5d;
+    color: #8F8F8F;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    user-select: none;
+}
+
+.logo {
+    align-self: center;
+}
+
+.chat {
+    font-size: 25px;
+}
+
+
+.input-text {
+    background: #45241c;
+    color: #8F8F8F;
+    border-radius: 5px;
+    width: 335px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px 200px 10px;
+    margin-bottom: 10px;
+    
+}
+.success-text {
+    color: #45241c;
+    border-radius: 5px;
+    width: 335px;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px 200px 10px;
+    margin-bottom: 10px;
+    
+}
+
+.endorsements{
+    font-size: 20px;
+}
+
+.send{
+    font-family: 'Josefin Sans', sans-serif;
+    border: none;
+    background: #ad3838;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.resultlist {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    color: #1B1924;
+    padding: 15px 30px;
+    font-size: 20px;
+}
